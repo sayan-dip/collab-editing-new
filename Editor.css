@@ -1,0 +1,8 @@
+.editorWrap
+  :global(.remirror-editor.ProseMirror .ProseMirror-yjs-cursor)
+  > div {
+  transform: translateX(-50%) translateY(-125%);
+  border-radius: 57px;
+  padding: var(--spacing-1) var(--spacing-2);
+  font: var(--copy-xs-medium);
+}
